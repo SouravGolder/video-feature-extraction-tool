@@ -30,7 +30,7 @@ Measures frame-to-frame movement magnitude
 
 Uses Tesseract OCR
 
-Samples frames at fixed intervals
+Samples frames at fixed intervals ( Reduce frame_interval if Motion is fast or scenes change quickly. It provides more accurate text detection )
 
 Calculates the ratio of frames containing readable text
 
