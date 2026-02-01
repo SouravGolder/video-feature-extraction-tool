@@ -4,11 +4,9 @@ A Python-based tool that analyzes a local video file and extracts key visual and
 Built as part of the Machine Learning Engineer task for White Panda.
 
 # 📂 Project Structure
-├── video_feature_extractor.py
-
-├── sample_video.mp4
-
-├── README.md
+├── video_feature_extractor.py  
+├── sample_video.mp4  
+├── README.md  
 
 # 🚀 Features
 
@@ -50,9 +48,9 @@ The extracted features are returned as a dictionary and printed in JSON format.
 
 Example output:
 
-{
-    "video_path": "sample_video.mp4",
-    "shot_cut_count": 4,
-    "average_motion": 1.12,
-    "text_present_ratio": 0.0
+{  
+    "video_path": "sample_video.mp4",  
+    "shot_cut_count": 4,  
+    "average_motion": 1.12,  
+    "text_present_ratio": 0.0  
 }
